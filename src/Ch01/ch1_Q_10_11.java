@@ -1,3 +1,4 @@
+package Ch01;
 import java.util.Scanner;
 
 public class ch1_Q_10_11 {

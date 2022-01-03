@@ -1,6 +1,7 @@
+package Ch01;
 import java.util.Scanner;
 
-public class ch1_4 {
+public class ch1_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,12 +10,8 @@ public class ch1_4 {
         int n = sc.nextInt();
 
         int sum = 0;
-        int i = 1;
+        for(int i = 1; i <= n; i++) sum += i;
 
-        while(i<=n) {
-            sum += i;
-            i++;
-        }
         System.out.println("1부터 " + n + "까지의 합은 " + sum + "입니다.");
     }
 }

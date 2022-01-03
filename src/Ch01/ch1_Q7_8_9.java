@@ -1,3 +1,4 @@
+package Ch01;
 public class ch1_Q7_8_9 {
 
     static int Q7(int n) {

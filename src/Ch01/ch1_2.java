@@ -1,3 +1,4 @@
+package Ch01;
 public class ch1_2 {
 
     static int max3(int a, int b, int c) {
